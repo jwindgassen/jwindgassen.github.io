@@ -1,0 +1,33 @@
+# General Information
+title: "Jonathan's Blog"
+author: 
+  name: Jonathan Windgassen
+  bio: Software Developer at Jülich Supercomputing Centre / Forschungszentrum Jülich
+  email: j.windgassen@fz-juelich.de
+  github: jwindgassen
+
+# Configs
+url: "https://jwindgassen.github.io"
+lang: en
+timezone: Europe/Berlin
+sources: unpkg
+toc:
+  selectors: "h1,h2,h3"
+paginate: 8
+paginate_path: /page:num # don't change this unless for special need
+
+# Theme
+remote_theme: kitian616/jekyll-TeXt-theme
+text_skin: dark
+highlight_theme: tomorrow-night-eighties
+
+# GitHub
+github:
+  is_project_page: true
+  repository_url: "https://jwindgassen.github.io"
+  owner_url: "https://github.com/jwindgassen"
+  owner_name: Jonathan Windgassen
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
